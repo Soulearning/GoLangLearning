@@ -1,4 +1,4 @@
-package main
+package const_learning
 
 import(
 	"fmt"
@@ -13,7 +13,7 @@ const(
 	j,k
 )
 
-func main()  {
+func Out() {
 	const a int = 10
 	fmt.Println("a = ",a)
 	fmt.Printf("aa = %d, b=%d\n",aa,b)
